@@ -8,7 +8,7 @@ while True:
     if num == 'STOP':
         break
     r, c, n = num.split(',')
-    print(f'(assert(P_{r}_{c}_{n}))')
+    print(f'(assert P_{r}_{c}_{n})')
 print(";--------------------------")
 for i in range(1, 10):
     for n in range(1, 10):
